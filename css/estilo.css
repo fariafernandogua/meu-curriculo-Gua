@@ -24,3 +24,45 @@ img,video{
 .container{
     width:min(92%,var(--max));
     margin:auto}
+header{
+    position:sticky;
+    top:0;
+    z-index:20;
+    background:rgba(15,23,42,.97);
+    color:white;
+    box-shadow:var(--sombra)
+}
+.topo{
+    min-height:72px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:16px
+}
+.marca{
+    display:flex;
+    align-items:center;
+    gap:10px;
+    text-decoration:none;
+    font-weight:800
+}
+.marca img{
+    width:46px;
+    height:46px;
+    border-radius:50%;
+    object-fit:cover;
+    border:2px solid #93c5fd
+}
+.menu{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px
+}
+.menu a{
+    text-decoration:none;
+    color:white;
+    font-weight:600;
+    padding:8px 12px;
+    border-radius:var(--raio);
+    transition:.3s
+}
