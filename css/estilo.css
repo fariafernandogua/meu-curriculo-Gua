@@ -1,0 +1,26 @@
+:root{
+    --azul:#2563eb;
+    --escuro:#0f172a;
+    --claro:#f8fafc;
+    --texto:#1e293b;
+    --suave:#64748b;
+    --borda:#e2e8f0;
+    --sombra:0 12px 30px rgba(15,23,42,.12);
+    --raio:16px;--max:1120px
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+    margin:0;
+    font-family:Inter,Arial,sans-serif;
+    background:var(--claro);
+    color:var(--texto);
+    line-height:1.65}
+img,video{
+    max-width:100%;
+    height:auto;
+    display:block
+}
+.container{
+    width:min(92%,var(--max));
+    margin:auto}
