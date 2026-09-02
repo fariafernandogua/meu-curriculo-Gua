@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -59,5 +59,63 @@
                                     <option>Programação</option>
                                     <option>Oportunidade profissional</option>
                                 </select>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Preferências</legend>
+                        <div class="opcoes">
+                            <label>
+                                <input type="radio" name="contacto" value="email" required> E-mail
+                            </label>
+                            <label>
+                                <input type="radio" name="contacto" value="telefone" required> Telefone
+                            </label>
+                            <label>
+                                <input type="radio" name="contacto" value="whatsapp" required> WhatsApp
+                            </label>
+                        </div>
+                        <p>
+                            <label>
+                                <input type="checkbox" name="urgente" value="sim"> Contacto urgente
+                            </label>
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensagem e ficheiro</legend>
+                        <div class="campo">
+                            <label for="mensagem">anexar cv/ portfólio *</label>
+                            <input id="ficheiro" name="ficheiro" type="file" accept=".pdf,.doc,.docx" required>
+                        </div>
+                        <div class="campo">
+                            <label for="mensagem">Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="7" required minlength="10" maxlength="1000"></textarea>
+                        </div>
+                    </fieldset>
+                    <div class="botoes">
+                        <button classe="btn primario" type="submit">Enviar mensagem</button>
+                        <button classe="btn secundario" type="reset">Limpar formulário</button>
+                    </div>
+                </form>
+            </section>
+        </main> 
+    <footer>
+        <div class="container rodape">
+            <section>
+                <h3>Contactos</h3>
+                <p>Email: <a href="mailto:fariafernandoguajoaquim@gmail.com">fariafernandoguajoaquim@gmail.com</a></p>
+                <p>Telefone/WhatsApp: 868061707</p>
+                <p>Beira, Moçambique</p>
+            </section>
+            <section>
+                <h3>Redes sociais</h3>
+                <p><a href="https://www.linkedin.com/in/faria-fernando-gua-joaquim-0b1b4a1b6/" target="_blank">LinkedIn</a></p> 
+                <p><a href="https://www.facebook.com/fariafernandogua" target="_blank">Facebook</a></p>
+                <p><a href="https://www.instagram.com/fariafernandogua/" target="_blank">Instagram</a></p>
+            </section>  
+        </div>
+        <div class="container rodape">  
+            <p>© 2024 Faria Fernando Gua Joaquim. Todos os direitos reservados.</p>
+        </div>
 </body>
 </html>
