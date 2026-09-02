@@ -278,3 +278,13 @@ form{
     border-radius:var(--raio);
     box-shadow:var(--sombra)
 }
+fieldset{
+    border:1px solid var(--borda);
+    border-radius:12px;
+    margin-bottom:20px;
+    padding:18px;
+}
+legend{
+    font-weight:600;
+    color:var(--escuro);
+}
