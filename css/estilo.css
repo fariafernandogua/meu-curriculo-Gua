@@ -204,3 +204,27 @@ header{
     font-size:2rem;
     color:var(--azul)
 }
+.cv{
+    display:grid;
+    gap:32px;
+}
+.cv aside{
+    border-top: 4px solid var(--azul);
+} ul,ol{padding-left:22px}
+table{
+    width:100%;
+    border-collapse:collapse;
+    background:white;
+    box-shadow:var(--sombra)
+}
+th,td{
+    padding:13px;
+    text-align:left;
+    border-bottom:1px solid var(--borda)
+}
+thead{
+    background:var(--escuro);
+    color:white;
+}tbody tr:nth-child(even){
+    background: #f1f5f9;
+}
