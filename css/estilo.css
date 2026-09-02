@@ -314,3 +314,20 @@ input:focus,textarea:focus,select:focus{
     border-color:var(--azul);
     box-shadow:0 0 0 3px #2563eb22;
 }
+input[type="radio"],input[type="checkbox"]{
+    width:auto;
+    accent-color:var(--azul);
+}
+input:invalid:not(:placeholder-shown),textarea:invalid:not(:placeholder-shown),select:invalid{
+    border-color:#dc2626;
+}
+.opcoes{
+    display:flex;
+    flex-wrap:wrap;
+    gap:16px;
+}
+.media{
+    background:#020617;
+    padding:16px;
+    border-radius:var(--raio);
+}
